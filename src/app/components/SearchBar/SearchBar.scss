@@ -1,0 +1,66 @@
+.searchBar {
+    position: relative;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.searchInput {
+    margin: 7px 0 0;
+    width: 620px;
+    border-radius: 15px;
+    padding: 10px 18px;
+}
+
+.itemsList {
+    background-color: white;
+    width: 652px;
+    margin: -5px auto 0;
+    padding: 10px 0 0;
+    max-height: 464px;
+    overflow-y: auto;
+    border-radius: 10px;
+}
+
+.searchedItemsList {
+    background-color: white;
+    width: 48rem;
+    margin: 5rem auto;
+    padding: 10px 0 0;
+    max-height: 30rem;
+    overflow-y: auto;
+    border-radius: 10px;
+}
+
+.item {
+    display: flex;
+
+}
+
+.item .avatarImg {
+    width: 60px;
+    margin: 10px;
+}
+
+.item .avatarContent {
+    margin: 3px;
+    color: orange;
+    text-align: left;
+}
+
+.avatarContent .description {
+    margin-right: 10px;
+}
+
+.searchBar .searchBtn {
+    background-color: #39e6e6;
+    position: absolute;
+    top: 9px;
+    border-radius: 50%;
+    padding: 8px 10px;
+}
